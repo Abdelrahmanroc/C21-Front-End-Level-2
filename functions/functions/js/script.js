@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 let myStr = "dit is een variabele van het datatype string"; //dit is een variabele van het datatype string, waarom?  want het slan de lang converteren op betekent dan het date type is  vul je antwoord in op de lijn
 let myInt = 3; //dit is een variabele van het datatype string waarom? Om het naar Lang te converteren, hebben we valueOf() gebruikt − vul je antwoorden in op de lijn
 
@@ -6,6 +7,16 @@ let myInt = 3; //dit is een variabele van het datatype string waarom? Om het naa
 function getName(naam){ //In op welke regel in de HTML file wordt deze functie aangeroepen Regel 18 vul je antwoord in op de lijn
 
     // vul in wat naam is: naam is de Parameter  vul je antwoord in op de lijn, je hebt de eerste letter al gekregen
+=======
+let myStr = "dit is een variabele van het datatype string"; //dit is een variabele van het datatype string, waarom?  ______________ vul je antwoord in op de lijn
+let myInt = 3; //dit is een variabele van het datatype ____________ waarom? ____________ vul je antwoorden in op de lijn
+
+//Waarom staat er let voor de variabelen? ____________ vul je antwoord in op de lijn
+
+function getName(naam){ //In op welke regel in de HTML file wordt deze functie aangeroepen ______________ vul je antwoord in op de lijn
+
+    // vul in wat naam is: naam is de P___________ vul je antwoord in op de lijn, je hebt de eerste letter al gekregen
+>>>>>>> 4b78582af4495784858aee13b9d491e751de57c6
     // vul in: naam heeft de waarde ____________ de waarde noemen we een A__________ vul je antwoord in op de lijn, je hebt de eerste letter al gekregen
 
     alert(naam); //dit toont een _______ op het scherm met de tekst _________ deze tekst staan op regel _______ van de HTML vul je antwoord in op de lijn
