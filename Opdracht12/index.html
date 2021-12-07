@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="functions.js">defer</script>
+</head>
+<body>
+    <div>
+    <h1 class="Naam">What is je Naam ?</h1>
+    <button onclick="document.querySelector('.Naam').innerHTML = 'Abdelrahman Mohamed';">Klik op me</button>
+    
+    <h2 class="Gaat">Hoe Gaat het met jouw ?</h2>
+    <button onclick="document.querySelector('.Gaat').innerHTML = 'Gaat goed';">Klik op me</button>
+
+    <P id="dag">Leef met een lach geniet en pluk de dag</P>
+    <button onclick="document.getElementById('dag').innerHTML = 'Yeah';">Klik op me</button>
+
+    <p id="wow"> Wow jij hebt een leuke smaak !</p>
+    <button onclick="document.getElementById('wow').innerHTML = 'Denkjewel';">Klik op me</button>
+
+    <h1>Reset Button</h1>
+    <button onclick="myButton()">Reset</button>
+    <script>
+      function myButton() {
+          location.reload();
+      }
+    </script>
+    </div>
+</body>
+
+</html>
